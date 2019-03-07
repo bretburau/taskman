@@ -43,7 +43,7 @@ class NewProject extends Component {
             })
     }
 
-    hasErrorFor(filed) {
+    hasErrorFor(field) {
         return !!this.state.errors[field]
     }
 

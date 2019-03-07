@@ -13,6 +13,7 @@ export default class App extends Component {
                     <Switch>
                         <Route exact path='/' component={ProjectsList} />
                         <Route path='/create' component={NewProject} />
+                        <Route path='/:id' component={SingleProject} />
                     </Switch>
                 </div>
             </BrowserRouter>

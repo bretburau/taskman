@@ -47,7 +47,7 @@ class NewProject extends Component {
         return !!this.state.errors[field]
     }
 
-    rendorErrorFor(field) {
+    renderErrorFor(field) {
         if (this.hasErrorFor(field)) {
             return (
                 <span className='invalid-feedback'>

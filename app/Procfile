@@ -1,2 +1,2 @@
 api: vendor/bin/heroku-php-apache2 public/
-web: cd client && npm start
+web: cd client && npm install && npm start
